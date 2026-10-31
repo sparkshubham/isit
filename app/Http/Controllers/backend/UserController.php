@@ -33,7 +33,7 @@ class UserController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 30 Oct 2019
      */
     public function index()
@@ -52,7 +52,7 @@ class UserController extends Controller
      * @summary
      * @param
      * @return datatable
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 30 Oct 2019
      */
     public function data(Request $request){
@@ -204,7 +204,7 @@ class UserController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 30 Oct 2019
      */
     public function show($id)
@@ -226,7 +226,7 @@ class UserController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 30 Oct 2019
      */
     public function create(Request $request, $id=null)
@@ -264,7 +264,7 @@ class UserController extends Controller
      * @summary to change status
      * @param
      * @return jsonResponse
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function changeStatus(Request $request)
@@ -289,7 +289,7 @@ class UserController extends Controller
      * @summary delete record from database
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function destroy($id = null)
@@ -323,7 +323,7 @@ class UserController extends Controller
      * @summary to change star mark
      * @param
      * @return jsonResponse
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function changeStarStatus(Request $request)
@@ -347,7 +347,7 @@ class UserController extends Controller
      * @summary to verify the user which is not verified
      * @param
      * @return jsonResponse
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function changeVerifyStatus(Request $request)

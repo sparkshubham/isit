@@ -39,7 +39,7 @@ class ExplorePostController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
 
@@ -109,7 +109,7 @@ class ExplorePostController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function view(Request $request,$post_id)

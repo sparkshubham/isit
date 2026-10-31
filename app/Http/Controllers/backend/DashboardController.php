@@ -31,7 +31,7 @@ class DashboardController extends Controller
      * @summary for dashboard page
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 10 Oct 2019
      */
     public function index()
@@ -66,7 +66,7 @@ class DashboardController extends Controller
      * @summary to change date
      * @param
      * @return jsonResponse
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function changeDate(Request $request)

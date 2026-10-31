@@ -32,7 +32,7 @@ class FrontUserController extends Controller{
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 30 Oct 2019
      */
     public function index()

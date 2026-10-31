@@ -26,7 +26,7 @@ class HomeController extends Controller
      * @summary to get message email verification
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 09 Dec 2019
      */
     public function verfiyMail($verifyKey)
@@ -73,7 +73,7 @@ class HomeController extends Controller
      * @summary to get terms of use page
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 09 Dec 2021
      */
     public function termsOfUse(){
@@ -91,7 +91,7 @@ class HomeController extends Controller
      * @summary to get privacy of use page
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 09 Dec 2021
      */
     public function privacyPolicy(){
@@ -109,7 +109,7 @@ class HomeController extends Controller
      * @summary to get about us of use page
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 09 Dec 2021
      */
     public function aboutUs(){

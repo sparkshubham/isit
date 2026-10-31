@@ -38,7 +38,7 @@ class AdminPostController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function index()
@@ -55,7 +55,7 @@ class AdminPostController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function data(Request $request){
@@ -122,7 +122,7 @@ class AdminPostController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function create(Request $request, $id=null)
@@ -184,7 +184,7 @@ class AdminPostController extends Controller
      * @summary to save or update record
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function store(AdminPostRequest $request){
@@ -295,7 +295,7 @@ class AdminPostController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function show($id)
@@ -321,7 +321,7 @@ class AdminPostController extends Controller
      * @summary to change status
      * @param
      * @return jsonResponse
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function changeStatus(Request $request)
@@ -344,7 +344,7 @@ class AdminPostController extends Controller
      * @summary delete record from database
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function destroy($id = null)

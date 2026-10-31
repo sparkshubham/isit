@@ -904,7 +904,7 @@ function sendApnsPushNotification($deviceIds,$message,$optionalData=[]){
         /********** Sand Box ************************/
         // Keep this sand box for QA and budble id -> com.huntleaguedemo
         // $url = 'https://api.sandbox.push.apple.com'; # <- development url, or use 
-        // $bundleid = 'dev.isit.app.matellio.voip';
+        // $bundleid = 'dev.isit.app.blitzinfosystem.voip';
         /********** Sand Box ************************/
  
         //print_r($optionalData) exit;

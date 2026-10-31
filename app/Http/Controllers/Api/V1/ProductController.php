@@ -1089,7 +1089,7 @@ class ProductController extends Controller
         ];
         $message = 'Hi {name} <br><br>Welcome to InSpiritInTruth! <br><br>{data}.<br><br><br>Thanks for joining us. <br><br>Yours Truly<br>Team ISIT';
         $templateData = ['subject' => 'ISIT Cron Job run','title'=>'ISIT Cron Job run'];
-        $data = sendEmail($message,$templateData,$EmailBodyArr,'Ashok','ashok.dadhich@matellio.com');
+        $data = sendEmail($message,$templateData,$EmailBodyArr,'Ashok','ashok.dadhich@blitzinfosystem.com');
         UserWelcomeEmailJob::dispatch($data); */
     }
     /**

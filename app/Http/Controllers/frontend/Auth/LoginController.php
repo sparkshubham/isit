@@ -59,7 +59,7 @@ class LoginController extends Controller{
      * @summary to show login page
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 10 Oct 2019
      */
     public function showLoginForm(){   
@@ -141,7 +141,7 @@ class LoginController extends Controller{
      * @summary overriding default logout function
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 10 Oct 2019
      */
     public function frontRegister(){

@@ -35,7 +35,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function index()
@@ -51,7 +51,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function data(Request $request){
@@ -91,7 +91,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function create(Request $request, $id=null)
@@ -136,7 +136,7 @@ class AppVersionController extends Controller
      * @summary to save or update record
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 17 Oct 2019
      */
     public function store(AdminAppVersion $request){
@@ -176,7 +176,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return view
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function show($id)
@@ -195,7 +195,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return global-setting
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function globalSetting(Request $request)
@@ -225,7 +225,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return global-setting
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function globalSettingSave(Request $request)
@@ -254,7 +254,7 @@ class AppVersionController extends Controller
      * @summary
      * @param
      * @return send-notfication
-     * @author matellio
+     * @author blitzinfosystem
      * @created_at 29 Oct 2019
      */
     public function sendNotification(Request $request)
