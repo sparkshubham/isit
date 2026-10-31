@@ -1,0 +1,89 @@
+Encryption keys generated successfully.
+Personal access client created successfully.
+Client ID: 1
+Client secret: 2UxIoaSCl8qpLkTzvayktRMKEgBxpyUlmyBIoPgO
+Password grant client created successfully.
+Client ID: 2
+Client secret: IsNt17adcaAk7WWJMrUtOvQ3rYZeRW2YIstf7J5l
+
+
+php artisan make:migration add_first_name_users_table
+
+
+php artisan make:migrate add_first_name_users_table
+
+
+php artisan migrate --path=/database/migrations/2022_05_04_070243_create_notifications_table.php
+
+
+git remote add origin git@github.com:CGTechnosoftdev/isit.git
+
+php artisan make:migration create_users_stories_views_table
+
+
+php artisan make:migration add_currency_to_products --table="products"
+
+php artisan make:migration add_live_user_count_to_events --table="events"
+
+
+
+scp -i /media/cgt_jod_lin_ashok/23950333-b10a-4a45-b162-88b292694c16/NewVolume/PEM/isit.pem -r /home/cgt_jod_lin_ashok/.ssh/id_rsa ubuntu@54.173.115.107:/home/ubuntu/
+
+
+DEV
+Client ID: 1
+Client secret: T3Rr61HK9z17bAzYIrqAazAOAt42Mbv7aoZWcAds
+Password grant client created successfully.
+Client ID: 2
+Client secret: kwowMadtAxCXZ9VAyboY9c7a0pk50DFhcUq17gqZ
+
+
+
+git remote add origin git@github.com:User/UserRepo.git
+
+
+rm -rf dev/*
+
+
+php artisan make:migration create_notifications_table --create=notifications
+
+Install jsValidation  package
+
+composer require proengsoft/laravel-jsvalidation
+
+Users Local
+    13.
+    ashok.dadhich@yopmail.com
+    Zebra2#apple
+
+    21.
+    ashok1234@mailinator.com
+    Apple2#zebra
+
+    UPDATE `users` SET `last_login`=`created_at` WHERE `last_login` IS NULL;
+
+
+php artisan make:model AppVersion
+
+
+php artisan db:seed --class=AppVersion
+
+php artisan make:seeder GlobalSettingDataSeeder
+
+/******* Update sid all user ***********/
+UPDATE `users` SET `twilio_s_id`='',`voip_device_id`='' WHERE 1
+
+INSERT INTO `notifications` (`id`, `message`, `description`, `created_at`, `updated_at`) VALUES (NULL, 'username: has tagged you in a comment.', 'Taggend in a comment of user', '2022-08-29 03:21:42', '2022-08-29 02:14:36'); 
+INSERT INTO `notifications` (`id`, `message`, `description`, `created_at`, `updated_at`) VALUES (NULL, 'username: liked your comment in a post.', 'Liked a comment in a post', '2022-08-29 03:21:42', '2022-08-29 02:14:36');
+
+INSERT INTO `notifications` (`id`, `message`, `description`, `created_at`, `updated_at`) VALUES (NULL, 'username: liked your story.', 'Send notification to owner of story like.', '2022-11-24 15:25:10', '2022-11-24 15:25:10'); 
+
+
+ALTER TABLE `isit_stage`.`users` DROP INDEX `users_username_unique`, ADD INDEX `users_username_unique` (`username`) USING BTREE; 
+
+INSERT INTO `global_settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES (NULL, 'is_ads_active', '1', '2022-12-30 10:58:28', '2022-12-30 10:58:28'); 
+
+INSERT INTO `notifications` (`id`, `message`, `description`, `created_at`, `updated_at`) VALUES (NULL, 'Admin sends you a message.', 'Admin sends you a message.', '2023-05-26 00:00:00', '2023-05-26 00:00:00'); 
+
+
+php artisan db:seed --class=HobbiesDataSeeder

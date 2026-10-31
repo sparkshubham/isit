@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_97" data-name="Group 97" transform="translate(-181 -2109)">
+    <g id="email-envelope-outline-shape-with-rounded-corners" transform="translate(193.016 2124.262)">
+      <path id="Path_63" data-name="Path 63" d="M20.871,64H2.982A2.982,2.982,0,0,0,0,66.982V78.908a2.982,2.982,0,0,0,2.982,2.982H20.871a2.982,2.982,0,0,0,2.982-2.982V66.982A2.982,2.982,0,0,0,20.871,64Zm-4.908,7.956,6.311-5.408a1.436,1.436,0,0,1,.087.434V78.908a1.411,1.411,0,0,1-.06.293Zm4.908-6.465a1.382,1.382,0,0,1,.28.057l-9.224,7.907L2.7,65.548a1.382,1.382,0,0,1,.28-.057ZM1.55,79.2a1.4,1.4,0,0,1-.059-.291V66.982a1.437,1.437,0,0,1,.088-.434l6.309,5.407Zm1.432,1.2a1.434,1.434,0,0,1-.425-.086L9.02,72.926,11.441,75a.741.741,0,0,0,.97,0l2.421-2.075L21.3,80.313a1.426,1.426,0,0,1-.425.086Z" transform="translate(0 -64)" fill="#fff"/>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(181 2109)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="23.5" fill="none"/>
+    </g>
+  </g>
+</svg>

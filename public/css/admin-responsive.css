@@ -1,0 +1,120 @@
+@media screen and (min-width: 992px){
+	.modal-dialog.modal-lg{max-width:850px;}
+}
+
+@media screen and (max-width: 1199px) {
+.form-horizontal .control-label.col-sm-2, .form-horizontal .box-footer .form-group .col-sm-2{width:30%}
+.form-horizontal .col-field-wrapper.col-sm-6, .form-horizontal .box-footer .form-group .col-sm-10{width:70%}
+.box-body, .box-footer {padding: 20px 30px}
+.boxBodyTopSection {padding-top: 10px}
+.boxBodyTopGroupTitle, .boxBodyTopGroupValue{width:100%;padding:0;}
+.boxBodyTopGroupTitle:after{position:static;padding-left:2px;}
+.form-condition-header{padding-bottom:10px;}
+.form-condition-body .row{border-bottom:1px solid #d2d6de;margin-bottom:15px;background-color:#f8fbfd;padding-top:15px;}
+.form-condition-body .row:last-child {border: 0}
+.modal-dialog.lightbox360 {padding: 0 15px;}
+
+}
+
+@media screen and (max-width: 991px) {
+.main-header .navbar-custom-menu a, .main-header .navbar-right a {color: #fff;border-color: #F9AA02;background-color: #F9AA02;}
+.form-horizontal .control-label.col-sm-2, .form-horizontal .box-footer .form-group .col-sm-2{width:100%}
+.form-horizontal .col-field-wrapper.col-sm-6, .form-horizontal .box-footer .form-group .col-sm-10{width:100%}
+.form-horizontal .control-label.col-sm-2{margin-bottom: 5px;}
+.form-horizontal .box-footer .form-group .col-sm-2{display:none}
+.box-body div.dataTables_wrapper div.dataTables_filter input{width:auto;}
+.add-new-btn{margin-left:15px;}
+.dataTables_filter{margin-left:0;}
+.box-body, .box-footer,.box-2 .box-header{padding:20px;}
+.boxBodyTopProfile{margin-bottom:30px;}
+.boxBodyTopGroupTitle{width:136px;padding-right:15px;}
+.boxBodyTopGroupTitle:after{position:absolute;}
+.boxBodyTopGroupValue{padding-left:26px;width:calc(100% - 136px);}
+.boxBodyTopSection{padding-top:10px;}
+.box-body .table-responsive>.table>tbody>tr>td{white-space: nowrap;}
+.acc-header-col1{width:180px;}
+.acc-header-inner{font-size:15px;}
+.accordion-form-main .panel-header{font-size:18px;}
+.admin-custom-radio{margin-top: 0 !important;}
+.captcha-box-main{padding: 15px 15px 0}
+.form-horizontal .control-label{margin-top: 0;padding-top: 0}
+.box.box-1{padding: 0}
+.box-body div.dataTables_wrapper div.dataTables_info,.box-body div.dataTables_wrapper div.dataTables_paginate{width:100%;text-align: center;}
+.box-body div.dataTables_wrapper div.dataTables_paginate{margin-top:8px;}
+.paginate_button.previous, .paginate_button.next{position:absolute;bottom:0;left:0;}
+.pagination{text-align:center;}
+.paginate_button.next{left:inherit;right:0;}
+.box-body .pagination>li>a{float:none;display:inline-block;margin-bottom:5px;}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination{white-space:normal;border-bottom:1px solid #e2e2e2;border-radius:0;width:100%;}
+.pagination>li{display:inline-block;}
+.box-body div.dataTables_wrapper div.dataTables_paginate{position:relative;padding-bottom:45px;}
+.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span{border-radius:5px;}
+.box-body .box-body-inner .table>tbody>tr>td .form-control{min-width: 180px}
+
+
+}
+
+@media screen and (max-width: 767px) {
+.login-box, .register-box {float: none;width: 90%}
+.login-logo h1, .register-logo h1{margin-top: 30px}
+.navbar-nav>.user-menu .user-image{width:25px;height:25px}
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {max-width: 320px;width: 100%; right: 0}
+.box-header,.box-body,.box-footer, .box-2 .box-header{padding:15px}
+.box-header{border-bottom:1px solid #ebebeb}
+.box-footer{border-top:1px solid #ebebeb}
+.form-horizontal .box-footer .form-group{margin-bottom:0}
+.box-body > .table-responsive {border: 0;padding: 0;margin: 0}
+div.dataTables_wrapper div.dataTables_filter{width:100%;}
+.box-body div.dataTables_wrapper div.dataTables_filter label{width:100%;}
+.box-body div.dataTables_wrapper div.dataTables_filter input{width:100%;margin:0;float:left;}
+.box-body .dataTables_length{margin-bottom:0;}
+.box-body .dt-buttons .btn{margin-bottom:0;}
+.box-body .table-bordered{margin-bottom:0 !important}
+.boxBodyTopProfile {margin-bottom: 20px}
+.boxBodyTopGroup{margin-bottom: 15px}
+.boxBodyTopGroupTitle, .boxBodyTopGroupValue{width:100%;padding:0;}
+.boxBodyTopGroupTitle:after{position:static;padding-left:2px;}
+.form-condition-label.blank-lbl {display: none}
+.add-remove-circle {text-align: right;}
+.form-condition-header {padding-bottom: 0px}
+.control-label-icon{margin: 0 0 5px}
+.box-2 .child-cat .col-field-wrapper{padding-left:39px}
+.box-2 .form-group{margin-bottom:15px}
+.add-features-row > .form-group{position:relative;}
+.add-features-row .col-sm-2.col-md-2{position:absolute;top:0;right:15px;padding:0;}
+.add-features-row > .form-group .control-label {height: 35px}
+.modal-dialog.modal-lg,.modal-dialog {width: 94%}
+.modal-content-details .box-body > .table-responsive {border: 1px solid #ddd}
+.modal-dialog.lightbox360 {padding: 0;}
+
+}
+
+@media screen and (max-width: 575px) {
+.acc-header-inner{position:relative;font-size:14px;display:inline-block;}
+.acc-header-inner > div{padding:4px 40px 4px 10px;display:inline-block;width:100%;}
+.acc-header-col1{width:73px;}
+.box-body .dropdown.action-control .dropdown-backdrop {background: rgba(0, 0, 0, 0.10)}
+.acc-header-inner > div.acc-header-col4{position:absolute;right:0;top:0;bottom:0;width:35px;display:table;height:100%;}
+.acc-header-col4 a{display:table-cell;vertical-align:middle;}
+.acc-header-inner > div.acc-header-col2, .acc-header-inner > div.acc-header-col3{width:49%;}
+.acc-header-inner > div.acc-header-col2{padding-right:0;}
+.acc-header-inner > div.acc-header-col1{padding-bottom:0;}
+.accordion-form-main .panel-header{padding:10px;font-size:15px;}
+.custom-sections .box .box-footer .btn{margin-bottom:5px;width:100%;margin-left:0;}
+.custom-sections .box-footer{padding:10px;}
+.custom-sections .box .box-footer .btn:last-child{margin-bottom:0;}
+.ui-dialog {width: 90% !important}
+.ui-dialog .ui-dialog-content h4 {font-size: 14px}
+.box-2 .box-header h3{font-size: 18px}
+.modal-body .box-footer .btn {width: 100%; margin: 0}
+.modal-body .box-footer .btn + btn {margin: 0}
+.modal-body .box-footer .btn+.btn {margin: 10px 0 0}
+.modal-lg .modal-title {font-size: 18px}
+.box .btn-sm, .btn-sm{padding: 6px 8px;}
+.box-header .btn-back {margin-top: 5px}
+.form-view-box .col-sm-3 {width: 45%}
+.input-group-ckeditor > div {width: 100%}
+.input-group-ckeditor > div.input-group-ckeditor1 .form-control {padding-left: 55px}
+
+
+}

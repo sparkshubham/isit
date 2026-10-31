@@ -1,0 +1,68 @@
+.filter div {
+  padding: 10px 20px;
+  display: inline-block;
+  color: #003;
+  background: #eee;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 9px
+}
+
+.filter div:hover { background: #8ad }
+
+.filter {
+  
+}
+
+.gallery div {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.gallery div {
+  /*width: 33.33%;*/
+  transition: all 0.2s;
+  display: block;
+  float: left;
+  opacity: 1;
+  height: auto;
+}
+
+.gallery .hide, .gallery .pophide {
+  width: 0%;
+  opacity: 0;
+  transition: all 0.1s;
+  display: none;
+}
+
+.gallery .pop {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 0px 1000px rgba(0,0,0,0.5);
+}
+
+.pop:after {
+  content: "\00D7";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #333;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.pop:hover:after { opacity: 1 }
+
+.form-hide{
+  display: none!important;
+}
+.section-form-hide{
+  display: none!important;
+}
+.hide{
+  display:none!important;
+}

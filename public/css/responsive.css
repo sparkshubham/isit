@@ -1,0 +1,809 @@
+@media screen and (min-width: 660px){
+.modal360 .modal-dialog {max-width: 580px}
+.modal360-design2 .modal-lg {max-width: 1000px}
+
+}
+@media screen and (min-width: 1200px){
+.container{max-width: 1200px}
+.navbar-expand-xl>.container>.container-inner, .navbar-expand-xl>.container-fluid>.container-inner {-ms-flex-wrap: nowrap;flex-wrap: nowrap;}
+
+}
+@media screen and (min-width: 1350px){
+.container{max-width: 1350px}
+
+}
+
+
+/*Leptop*/
+@media screen and (max-width: 1349px) {
+.top-header .navbar-brand{width:11rem;margin-right:2rem}
+.top-header .navbar-nav.right-menu-links .nav-link+ .nav-link, .right-menu-links .btn{margin-left:1.5rem}
+.top-header ul.navbar-nav .nav-link{padding-right:1rem;padding-left:1rem}
+.hero-section .row>div[class*="col-"]{padding-top:3.5rem;padding-bottom:3.5rem}
+.lp-customers-rating{padding-left:3rem}
+.lp-main{padding:1.5rem 0}
+.how-it-works-box:after{width:9rem;margin-left:-3rem}
+.promotion-banner-second .container{background-position: bottom right 1.4rem;}
+.help-center-style2 .help-center-panel {padding-left:2rem}
+.terms-content{padding-right: 1rem}
+
+
+}
+
+@media screen and (max-width: 1199px) {
+.top-header .navbar{transition: none;-webkit-transition: none;-moz-transition: none;}
+.top-header .navbar>.container,.top-header .navbar>.container-fluid{max-width: 100%;justify-content:left}
+.top-header .navbar-brand{margin:0 auto;width:14.375rem;padding-right: 2rem}
+.top-header .navbar-toggler{border-radius: 0;padding:1rem}
+.top-header .navbar{height: inherit;}
+.top-header .nav-link i.icon-chat{padding-right:0}
+.top-header .nav-link i.icon-phone{padding-left:0}
+.top-header .navbar-nav.right-menu-links .nav-link+ .nav-link, .right-menu-links .btn{margin-left: 0}
+.top-header .navbar-collapse{background-color:#445b70;border:1px solid #445b70;padding:1rem 0;max-height: calc(100vh - 4.75rem);overflow: auto;-webkit-overflow-scrolling: touch;}
+.top-header ul.navbar-nav .nav-link{padding:.5rem 1.5rem;font-size:1rem}
+.top-header .dropdown-menu{margin:0 1.5rem;background-color:rgba(255,255,255,0.8)}
+.top-header .dropdown-menu .dropdown-item{padding:.7rem 1rem}
+.top-header .navbar-toggler[aria-expanded="true"]{background-color:#445b70}
+.top-header .right-menu-links{text-align:left;flex-direction:row;display:inline-block;padding:0 1.5rem}
+.top-header .right-menu-links .nav-link{padding:.5rem 0;margin:0;width:100%;display:inline-block;width:100%}
+.top-header-white.top-header .navbar-collapse{background-color:#FFF;border-color:#f3f3f3}
+.top-header-white.top-header .navbar-toggler[aria-expanded="true"]{background-color:#cbdcee}
+.top-header-white .navbar-toggler[aria-expanded="true"] .nav-icon:after,.top-header-white .navbar-toggler[aria-expanded="true"] .nav-icon:before{background-color:#fff}
+.top-header .right-menu-links .nav-link.nav-link-btn{margin:.5rem 0 1rem;padding:.5rem!important}
+.header-style-2.top-header .navbar-brand {margin: 0 auto;padding-left: 1rem}
+.dropdown-item-active .icon-arrow-next {line-height: 2.8rem}
+.header-search .form-control {height: 3rem}
+.right-menu-links, .header-search-form{overflow: visible;-webkit-overflow-scrolling: touch;}
+.right-menu-links .header-search .btn {border-radius: .375rem}
+.top-header .typeahead__result{top:auto;bottom:100%}
+.top-header .typeahead__list{border-radius:.5rem .5rem 0 0;max-height: 13rem;margin-bottom:-0.375rem}
+.header-search-form.active{width: auto;}
+.right-menu-links .btn{width:3rem;height:3rem}
+.header-search-form{top:inherit;width:auto;height:3rem;left:1.5rem;right:1.5rem;border-radius:.375rem}
+.header-search .form-control{padding:.8rem 3rem .8rem 3rem;font-size:.9rem;border-radius:.375rem}
+.right-menu-links .header-search .btn{display:inline-block}
+.header-search .icon-file{font-size:1.8rem;left:.8rem}
+.cw-img2{padding-left: 0;text-align: center;}
+.how-it-works{padding:2rem 0;margin-bottom:13rem}
+.how-it-works-img img{max-width:85%;margin:0 auto}
+.how-it-works-box:after{width:7rem;background-position:center 3rem;margin-left:-2rem}
+.cd-tabs-main .nav-pills .nav-link{font-size:1rem;padding:1.5rem 0}
+.cd-icons img{max-width:90%}
+.cd-tabs-main .tab-content{padding:2rem 2.5rem 0}
+.cd-data-list li {margin-bottom: 1.2rem}
+.cw-img-box h3{margin-top:0;font-size:1.75rem}
+.content-with-img{padding:7rem 0}
+.promotion-banner-data h3{font-size:1.65rem}
+.why-choose-us{padding:5rem 0 4.5rem}
+.wcu-left{padding-top:1rem}
+.wcu-img1{width:8.125rem}
+.wcu-img2{width:6.438rem}
+.wcu-img3{width:5.25rem}
+.wcu-col-1{width:9rem;padding-right:1rem}
+.mCustomScrollbar {-ms-touch-action: auto; touch-action: auto;}
+.wcu-testimony-content, .tb-details{padding:1.5rem 1.5rem 1rem}
+.wcu-testimony-inner p, .wcu-testimony-desc{font-size: .9rem;margin-bottom:1rem}
+.features-box-main {margin-bottom: 4rem;font-size: .9rem}
+.features-heading {margin-bottom: 1rem}
+.h2-description-label {padding-bottom: 3rem}
+.promotion-banner-second .container{background-position: bottom right -6.6rem;background-size: 60%;}
+.bp-second-data h3 {font-size: 2rem}
+.bp-second-btn {padding-bottom: 3.75rem}
+.footer-information>div svg {display: inline-block;vertical-align: middle}
+.myaccount-page-inner{margin:3rem auto 1rem}
+.notes-blue-bg:before{height:25.5rem}
+.myaccount-tabs-main{padding:1.2rem}
+.myaccount-body-top{margin-bottom:1.5rem}
+.myaccount-bottom{margin-top:3rem}
+.billingtbl-col1 {width: 4rem}
+.contact-page-content.notes-blue-bg:before{height:31.75rem}
+.banner-with-content{padding:3rem 0 0}
+.h1-desc{margin:.8rem 0}
+.contact-box-inner{margin:2rem auto 0}
+.support-two-col .help-center-panel{padding:.5rem 3rem}
+.terms-top-section{padding:4rem 0}
+.terms-top-section .h1-desc-blue{margin-top:2.5rem}
+.terms-content li p{margin-bottom:1.5rem}
+.terms-content li{margin-bottom:2.5rem}
+.careers-box-left{width:30%;padding-right:1rem}
+.careers-box-right{width:70%}
+.legal-documents-tabs .nav-link{padding:1rem 1rem 1rem 4.25rem}
+.leagal-tab-icons{left: -3.25rem}
+.tb-img{padding-top:65%}
+.testimonials-banner-col-1{width:52%;padding-right:15%}
+.testimonials-banner-row{height:20rem}
+.dp-banner-right{padding-right:5.375rem}
+.dp-banner-box{width:18.25rem;height:18.25rem}
+.dp-banner-img{height:18.25rem}
+.dp-banner-view-indicator{right:-6rem}
+.navbar-menu-list li+li{margin-left:2rem}
+.how-it-works-style2 .how-it-works-box1 .how-it-works-img{width: 5.375rem;}
+.how-it-works-style2 .how-it-works-box2 .how-it-works-img{width: 6.625rem;}
+.how-it-works-style2 .how-it-works-box3 .how-it-works-img{width: 6rem;}
+.signup-path1of1-content .signup-path-left{padding-left:0}
+.signup-path1of1-content .signup-path-right{padding-right:0}
+.spath3of1-left{width:26rem}
+.spath3of1-right{padding-left:2rem}
+.spath3of1-banner-box{max-width:72%}
+.support-timelist{font-size: 12px}
+.form-secure-logos a{max-width:20rem}
+.form-secure-logos .cw-img-logos a+a{margin:.10rem}
+.form-secure-logos .cw-img-logos a img{max-width:5rem}
+.signup-path4of2-banner-content {padding: 4rem 0}
+/* .onboarding-bg{height: 17.5rem !important;} */
+.search-page-col1 {width: 20rem}
+.currentPlanBoxBtn .btn-orange{min-width:9rem;}
+.currentPlanBox{width:100%;}
+.currentPlanBox>div{text-align:right;}
+.form360-table tbody tr .btns-action-on-hover {opacity: 1;}
+.extra-right-btns .btn-orange {margin-bottom: .25rem !important; min-width: auto; width: auto; padding-left: 1rem;padding-right: 1rem;}
+
+}
+
+@media screen and (max-width: 991px) {
+.hero-section .row>div[class*="col-"]:last-child{padding-top:2.5rem;padding-bottom: 0; margin-bottom:-4.75rem}
+.hero-section{background-image: url(../img/hp-hero-mobile-bg.jpg);margin-bottom:5rem}
+.hero-section .row>div[class*="col-"]:first-child {padding-top: 5rem;}
+.hero-left-from, .hero-right-from{margin: 0 auto}
+.lp-main>div.lp-logos {display: block;text-align: center}
+.lp-customers-rating{text-align: center;padding: 0}
+.lp-customers-rating span {font-size: 0.938rem}
+.lp-logos{margin-bottom:1rem}
+.how-it-works-box.how-it-works-box1{margin-top:.5rem}
+.how-it-works-box:after{display:none}
+.how-it-works-img img{max-width:100%}
+.how-it-works-box{margin-top:3rem}
+.cw-img-box h3 {font-size: 1.6rem}
+.cw-img img {max-width: 90%}
+.content-with-img{padding: 5rem 0}
+.promotion-banner-data h3{font-size:1.4rem}
+.promotion-banner-data p{font-size:1rem}
+.promotion-box{padding:0 1.5rem 2rem}
+.promotion-banner{padding:2.5rem 0 2rem}
+.promotion-logos a+a,.promotion-logos img+img{margin-left:1rem}
+.promotion-logos img{max-height:3rem}
+.why-choose-us{padding:4rem 0 3.5rem}
+.wcu-left {max-width: 30rem;margin: 0 auto;}
+.wcu-img1{width: 10.125rem;}
+.wcu-img2{width: 8.438rem;}
+.wcu-img3{width: 7.25rem;}
+.wcu-col-1{width: 12.75rem;padding-right: 2.5rem;}
+.wcu-testimony-inner p, .wcu-testimony-desc, .testimonials-banner .wcu-testimony-desc{font-size: 1rem}
+.features-section {padding: 4rem 0 0}
+.promotion-banner-second .container{background: none;}
+.bp-second-data h3 {font-size: 2.25rem}
+.bp-second-data {text-align: center}
+.bp-second-img {text-align: center}
+.bp-second-btn {padding-bottom: 2.5rem}
+.promotion-banner-second{background-image: url(../img/legal-document-mobile-bg.jpg);}
+.footer-top-inner .footer-top-col{width:38%}
+.footer-top-inner .footer-top-col:nth-child(3n+3) {width: 24%}
+.ifColumnFour .footer-top-col5 {clear: both}
+.footer-list {padding-right: .5rem}
+.footer-top-col5{padding: 0;text-align: left;}
+.footer-top-col4{clear:both}
+.footer-top-col4,.footer-top-col5{margin-top:3rem}
+.footer-top{padding:2.5rem 0}
+.footer-bottom-right > span:last-child{margin-right: 0.25rem}
+.cd-tabs-main .tab-content {padding: 2rem .5rem 0}
+.footer-bottom-left,.footer-bottom-right{text-align:center}
+.footer-bottom-right{margin-top:1.75rem}
+.footer-information>div{display:inline-block}
+.logo360icon{text-align:center;margin-bottom:1.125rem}
+.footer-information{text-align:center;margin-top:3.5rem}
+.logo360desc{text-align:left}
+.testimonials-banner-row{height:auto}
+.testimonials-banner-row>div{display:inline-block;width:100%}
+.testimonials-banner-col-1{padding-right:0}
+.tb-img{position:relative;overflow:hidden;border-radius:.25rem;background-color:#ececec;border:1px solid #e7e7e7}
+.wcu-testimony-img, .tb-img{max-width: 90%;padding-top: 68%}
+.wcu-testimonial-repeater, .testimonials-banner-row{max-width: 34.85rem;margin: 0 auto;}
+.tb-details{background:#2374c1;background:-moz-linear-gradient(top,rgba(35,116,193,1) 0,rgba(38,166,216,1) 99%);background:-webkit-linear-gradient(top,rgba(35,116,193,1) 0,rgba(38,166,216,1) 99%);background:linear-gradient(to bottom,rgba(35,116,193,1) 0,rgba(38,166,216,1) 99%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2374c1',endColorstr='#26a6d8',GradientType=0);border-radius:.25rem;position:relative;z-index:2;bottom:5.875rem;right:-19.5%;width:80%;max-height:inherit}
+.testimonials-banner{background:#FFF}
+.testimonials-banner-sm{margin-top: 50px;}
+.myaccount-left{max-width:100%}
+.myaccount-tabs,.last-activity{float:left;width:50%;}
+.last-activity-list li label {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.myaccount-tabs .nav{padding-top:0}
+.notes-blue-bg:before{height:24rem}
+.last-activity h6,.last-activity-list li label{color:#FFF}
+.form360-table .table td,.form360-table .table th{white-space:nowrap}
+.status-prigress-bar{width:10rem}
+.tbl-payment-column{padding-right:0}
+.myaccount-bt-left .ssl-information{margin-left:1rem}
+.payment-tabbing-tabs{font-size:.8rem}
+.payment-tabbing-tabs .nav-tabs .nav-link{min-width:auto;padding:.25rem 1.2rem}
+.payment-method-icons i+i{margin-left:.5rem}
+.payment-tab-form{padding:1.5rem 0 1rem}
+.myaccount-tabs-main{padding:0;min-height: inherit;box-shadow:none}
+.myaccount-tabs-main.myaccount-tabs-detailPage {padding: 1rem; min-height: 20rem;box-shadow: 0 0 10px 2px rgba(0,0,0,0.10); -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,0.10); -moz-box-shadow: 0 0 10px 2px rgba(0,0,0,0.10);}
+.myaccount-bottom{margin-top:2rem}
+.banner-with-content{padding:2rem 0 0}
+.contact-box-inner{margin:1rem auto 0}
+.contact-page-content.notes-blue-bg:before{height:29.5rem}
+.contact-box-left,.contact-box-right{padding:1.5rem 1rem}
+.cb-left-inner ul li{margin-top:.8rem}
+.contact-form-row .contact-fields{width:60%}
+.contact-form-row label{width:40%;padding-right:.5rem}
+.contact-form-main{margin-top:0}
+.support-two-col .help-center-panel{padding:.5rem 1rem}
+.support-two-col .help-panel-right{padding-left:.5rem}
+.terms-top-section{padding:3rem 0}
+.terms-top-section .h1-desc-blue{font-size:1.2rem}
+.career-box-details,.career-form{padding: 0}
+.careers-bottom-box{padding:2.5rem 1.5rem}
+.careers-box-left{width:38%}
+.careers-box-right{width:62%}
+.openings-repeater-middle{padding:0 1rem}
+.openings-repeater-right{width:4.5rem}
+.openings-repeater-left{width:2rem;font-size:3rem}
+.openings-repeater-box{padding:1rem}
+.legal-documents-tabs .nav li{width:50%;border-bottom:1px solid #dee6ee}
+.legal-documents-tabs .nav li:nth-child(n+3){border-bottom:0}
+.legal-documents-tabs .nav li:first-child .nav-link,.legal-documents-tabs .nav li:last-child .nav-link{border-radius:0}
+.legal-documents-tabs .nav li:nth-child(2n+2){border-right:0}
+.legal-documents-tabs .nav-link{padding:1.75rem 1.75rem 1.75rem 5.25rem}
+.leagal-tab-icons{left:-3.5rem}
+.legal-documents-tabs{overflow:hidden}
+.legal-documents-filters{position:absolute;z-index:2;right:0;top:100%;width:4.75rem;padding:1.25rem .25rem;margin:2.5rem 0;box-shadow:0 0 10px 2px rgba(0,0,0,0.10);-webkit-box-shadow:-2px 0 10px 0 rgba(0,0,0,0.10);-moz-box-shadow:0 0 10px 2px rgba(0,0,0,0.10)}
+.ld-filter-list li{display:block;margin-bottom:.125rem}
+.ld-tabs-content{padding:0}
+.ld-tabs-content .tab-content{padding:3.75rem 3.25rem 4.25rem 0}
+.legal-documents-data, .legal-documents-data:last-child{margin-bottom:4.25rem}
+.ld-tabs-body .row [class*="col-"]:last-child .legal-documents-data:last-child {margin-bottom: 0}
+.wcu-testimonial-main .owl-dots, .testimonials-banner .owl-dots{top:inherit;bottom:2.3rem;width:100%;text-align:center;padding:0}
+.try-to-search-docs{margin:0 auto;padding-top:2rem}
+.try-to-search-docs:before{display:none}
+.wcu-testimony-desc{line-height: 1.6;/* max-height: inherit; overflow: visible;*/}
+.testimonials-banner .owl-dots .owl-dot+.owl-dot span{margin-left: 0.125rem}
+.dc-pricing-box>div{display:inline-block;width:100%}
+.dc-pricing-box>div.dc-pricingb-col1,.dc-pricing-box>div.dc-pricingb-col2{width:50%}
+.documents-category-bottom .ld-tabs-content .tab-content{padding-right:0}
+.articles-bottom-right{border:1px solid #bdccdd;padding:1rem;max-width:100%;border-radius:.25rem;margin-bottom: 3rem}
+.support-article-left, .support-article-middle {margin-bottom: 2rem}
+.support-box-listing li a {padding: .5rem}
+.support-faq-col-1{width:14rem}
+.support-faq-col-2{padding:1.5rem}
+.dp-banner-main {padding: 4rem 0 0}
+.dp-banner-main>div {display: inline-block; width: 100%;text-align: center}
+.dp-banner-inner {margin: 0 auto}
+.dp-banner-right {padding: 0 }
+.dp-banner-box {width: 23.25rem;height: 23.25rem;margin: .625rem auto 0}
+.dp-banner-img {height: 23.25rem}
+.dp-banner-view-indicator {right: -7rem}
+.navbar-menu-list {text-align: center;margin: .6rem 0}
+.navbar-menu-form {text-align: center}
+.how-it-works-style2 .how-it-works-box {width: auto;margin: 1.5rem auto 0}
+.how-it-works-style2 .how-it-works-box1 .how-it-works-img{width: 10rem;}
+.how-it-works-style2 .how-it-works-box2 .how-it-works-img{width: 10rem;}
+.how-it-works-style2 .how-it-works-box3 .how-it-works-img{width: 10rem;}
+.how-it-works-style2 .how-it-works-box .how-it-works-img {text-align: center}
+.how-it-works-style2 .how-it-works-text {padding-left: 1rem}
+.rd-banner-container{max-width:28rem}
+.related-doc-banner{padding:3.75rem 0 2.75rem;background:none}
+.related-doc-banner .promotion-box.box-shadow-bg {margin-top: 0.5rem}
+.doc-basics-right-middle:before,.related-doc-banner{background: #2374c1;background:-moz-linear-gradient(top,rgba(35,116,193,1) 0,rgba(38,166,216,1) 100%);background:-webkit-linear-gradient(top,rgba(35,116,193,1) 0,rgba(38,166,216,1) 100%);background:linear-gradient(to bottom,rgba(35,116,193,1) 0,rgba(38,166,216,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2374c1',endColorstr='#26a6d8',GradientType=0);}
+.doc-basics-right{max-width:100%}
+.wcu-left.wcu-style2{border:0;max-width:100%;margin-top:2.75rem}
+.wcu-heading h2{font-size:1.875rem;margin-bottom:0}
+.wcu-heading .h2-description-label{display:block;text-align:center;max-width:37.5rem;margin:0 auto}
+.wcu-style2 .wcu-row{max-width:30rem;margin:0 auto 2.25rem}
+.wcu-style2 .wcu-row>div{display:table-cell;width:auto}
+.wcu-style2 .wcu-row>div.wcu-col-1{width:12.75rem;padding-right:2.5rem}
+.wcu-style2 .wcu-row>div.wcu-col-2{text-align:left}
+.wcu-style2 .wcu-img-content{margin:0}
+.wcu-style2 .wcu-img-content h5{display:block}
+.doc-basics-right-middle{padding:0}
+.sample-banner-widget{width:100%;background: none;display:table;padding: 3.7rem 0;max-width: 35.5rem;margin: 0 auto;}
+.sample-banner-widget>div{display:table-cell;vertical-align:middle;width:auto}
+.sample-banner-widget>div.sb-widget-form{width: 17.875rem;max-width:inherit;padding-left: 3.5rem;}
+.doc-basics-right-middle{position:relative;margin:2.125rem 0 3.125rem}
+.doc-basics-right-middle:before{content:"";position:absolute;left:-50%;top:0;width:200%;height:100%;z-index:-1}
+.doc-basics-content{overflow:hidden}
+.sb-widget-img {text-align: left}
+.modal360-design2 .modal-lg{max-width:100%;padding:0 1rem}
+.modal-header-title{width:100%}
+.modal-header-form{width:100%;margin-top:1rem}
+.modal-header-select{width:45%}
+.pp-box-row>div,.pp-box-row>div.pp-best-value{width:100%;text-align:center}
+.pp-box-bottom{min-height:inherit}
+.pp-best-value{margin:2rem 0}
+.pp-box-label-text{margin:0;border-radius:.25rem .25rem 0 0;padding:.8rem}
+.pp-box-list{max-width:18rem;text-align:left}
+.pp-box-inner{max-width: 80%;border:1px solid #efefef}
+.signup-path4of1-content.plan-page-content .banner-md-main .banner-sm-with-content-inner{max-width:80%;margin:0 auto;padding:3rem 0 6rem}
+.moneyback-strip-style-2 .moneyback-strip-data{margin-left:auto;margin-top:1rem}
+.plan-page-content .banner-md-main .banner-sm-with-content-inner{padding-bottom:7.75rem}
+.signup-path1of1-content .signup-path-col1,.signup-path1of1-content .signup-path-col2,.signup-path-col1,.signup-path-col2, .signup-path4of2-content .signup-path-col1, .signup-path4of2-content .signup-path-col2{width:100%}
+.wcu-left.wcu-style3{padding:1rem 0 0}
+.signup-path1of1-content .signup-path-right{max-width:100%;padding:0 1.25rem}
+.wcu-style3 .wcu-heading{display:block}
+.wcu-style2.wcu-style3 .wcu-img-content h5{color:#00b3e6;margin-bottom:.125rem;font-size:1.063rem;line-height:1.5;font-family:'Montserrat Semi';max-width:100%}
+.wcu-style3 .p-desc{display:block}
+.wcu-style2.wcu-style3 .wcu-img-content{margin:0}
+.signup-tooltip-main{padding:1.5rem 0}
+.signup-tooltip-box:before{top:-0.5rem;left:1.75rem;transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg)}
+.signup-order-main {padding: 1.5rem 0}
+.signup-order-content-main {padding: 0}
+.signup-path2-col2 {padding: 1.5rem}
+.doc-form-img{text-align:center}
+.signup-path2-row{display:inline-block!important;width:100%}
+.signup-path2-col1{width:100%;border-bottom:1px solid #dee6ee;border-right: 0}
+.sp2-custom-radio{padding:3.5rem 1.5rem 1.5rem;text-align:center}
+.sp2-custom-radio .sp2-radio-checkmark{transform:translate(-50%,0);-webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0);top:1.5rem;left:50%}
+.sp2-theme-2{border-top:0; border-bottom: 0 }
+.spath3of1-inner>div{display:inline-block;width:100%}
+.spath3of1-left{text-align:center;margin-bottom:3rem}
+.spath3of1-banner-box{max-width:100%}
+.spath3of1-right{padding:0}
+.spath3of1-plans{margin:0 auto}
+.moneyback-strip-data{position:relative;padding-top:4rem;max-width:30rem;padding-left: 1rem;padding-right: 1rem;margin:0 auto}
+.moneyback-strip-data img{position:absolute;top:0;left:50%;transform:translate(-50%,0);-webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0);max-width:6rem}
+.promotion-banner-style2 .promotion-banner-data h3{max-width:20rem}
+.promotion-details{margin-top:1rem}
+.support-timelist{font-size: 14px}
+.signup-order-box-bottom{padding-left:0}
+.signup-order-list{max-width:100%;float:left;width:100%}
+.signup-order-list li{width:33.333%;float:left}
+.signup-order-details label.signup-order-title{padding-right:2rem}
+.signup-plans-policies{padding:0;margin:3rem 0 0;border:1px solid #d1deeb;border-radius: .25rem}
+.signup-path4of2-content .signup-path-right{text-align:center}
+.obox-left,.obox-right{padding-left:1.5rem;padding-right:1.5rem}
+.obox-left, .select-box-field {width: 100%}
+.obox-right, .select-box-btn{width:40%}
+.obox-form-buttons .btn-orange.btn-extra-light-blue{min-width:6rem}
+.obox-form-buttons .btn-orange{min-width:11rem}
+.onboarding-box>div{padding-top:1.5rem;padding-bottom:1.5rem}
+.obox-bottom-info{bottom:2rem}
+.ob-box-inner{margin-bottom:4rem}
+.navbar-menu-col1{width:auto;margin-right:0}
+.opreview-header-container .navbar-menu-form{text-align:right}
+.search-page-row>div{display:inline-block;width:100%}
+.search-page-col1{padding:1rem 0;border:0}
+.search-page-main{padding-top:2rem}
+.search-page-col2{padding:1rem 0 0}
+.search-field-list {padding: 2rem 0 0 1.25rem}
+.support-box-listing li:nth-child(3n+3) {border-right: 1px solid #dee6ee}
+.onboarding-box>div{display:block;width:100%;padding-top:2rem;padding-bottom:2rem}
+.obox-left,.obox-right{padding-left:2rem;padding-right:2rem}
+.onboarding-box>div.obox-right{padding-bottom:5rem;border-top:1px solid #d1deeb;position:static}
+.progress-bar-main{position:absolute;top:0;width:100%;left:0;padding:2rem 2rem .5rem;border-bottom:1px solid #d1deeb}
+.obox-faq{margin-top:0}
+.onboarding-box{position:relative;padding-top:10rem}
+.modal-header-later-form{padding-right: 0;}
+.modal360-design2-later .close{top: 0.9rem;}
+
+}
+
+@media screen and (max-width: 767px) {
+.container {max-width: 100%;padding-left: 2.5rem;padding-right: 2.5rem}
+.choose-document-tabs>.container>.row>div{margin-top:-5rem;padding-left:0;padding-right:0}
+.choose-document-tabs>.container>.row>div>.choose-document-container>.row{margin: 0}
+.center-text-with-btn .btn-orange {margin: .5rem}
+.content-with-img-container {max-width: 24rem}
+.choose-document-tabs .container{padding-left:0;padding-right:0}
+.choose-document-tabs .container>.row{margin-left:0;margin-right:0}
+.choose-document-tabs>.container>.row>div>.row{margin-left:0;margin-right:0}
+.cd-tabs-main .nav-pills .nav-link{font-size:0;padding:1.92rem 2.25rem}
+.cd-tabs-main .nav-justified{display:table;width:100%}
+.cd-tabs-main .nav-justified .nav-item{display:table-cell;vertical-align:top}
+.cd-tabs-main .nav-pills .nav-link.active,.cd-tabs-main .nav-pills .show>.nav-link{font-size:1rem;text-align:left}
+.cd-icons{margin-right:0}
+.cd-tabs-main .nav-pills .nav-link.active .cd-icons,.cd-tabs-main .nav-pills .show>.nav-link .cd-icons{margin-right:.4rem}
+.cd-tabs-main .tab-content{padding:1.5rem 1.5rem 0}
+.choose-document-tabs{padding-bottom:2.25rem}
+.cw-img img{max-width:100%}
+.how-it-works {margin-bottom: 8.5rem}
+.content-with-img .col-lg-9{max-width:25rem}
+.content-with-img{padding:4.25rem 0}
+.cw-img1{margin-bottom:1rem;text-align:center}
+.cw-img2{margin-bottom:3.5rem}
+.cw-img-box h3{font-size:2rem}
+.p-desc{font-size:.875rem}
+.promotion-banner-data h3{font-size:1.75rem}
+.promotion-banner-data p{font-size:1.188rem}
+.promotion-banner-data{margin:0 auto;text-align:center;padding-top:0}
+.promotion-banner{padding:4.5rem 0 3.75rem;background:#2374c1;background:-moz-linear-gradient(top,rgba(35,116,193,1) 0,rgba(38,166,216,1) 100%);background:-webkit-linear-gradient(top,rgba(35,116,193,1) 0,rgba(38,166,216,1) 100%);background:linear-gradient(to bottom,rgba(35,116,193,1) 0,rgba(38,166,216,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2374c1',endColorstr='#26a6d8',GradientType=0)}
+.promotion-box{margin:3rem auto 0}
+.wcu-right-col {padding-left: 15px;padding-right: 15px}
+.why-choose-us{padding:5rem 0}
+.wcu-testimony-content, .tb-details{right:-14%;width:85%;padding:2.5rem 2.5rem 1.5rem}
+.logo360desc{padding: 0}
+.contact-box-left{width:40%}
+.contact-form-row label,.contact-form-row .contact-fields{width:100%;padding:0}
+.contact-form-row label{margin:0 0 .313rem}
+.support-two-col .support-columns{display:inline-block;width:100%}
+.support-two-col .help-center-panel{border:1px solid #dde2ed;padding:1rem 1.875rem;border-radius:.375rem;margin-bottom:0;max-width:100%}
+.support-two-col:before{display:none}
+.support-two-col .help-panel-right{padding-left:1.375rem}
+.support-two-col .help-panel-left{width:5rem;text-align:center;vertical-align:middle}
+.support-two-col{border:0}
+.support-two-col h6{margin-bottom:.4rem}
+.terms-top-section .h1-desc-blue br{display:none}
+.terms-content{padding-right:0}
+.help-center-style2 .help-center-panel{padding:.65rem 1.875rem;border:1px solid #dde2ed;margin:1rem auto;border-radius:.375rem;max-width:28.625rem}
+.help-center-style2 .help-center-panel>div{display:table-cell;vertical-align:middle}
+.help-center-style2 .help-panel-right{padding-left:1.875rem}
+.help-center-style2 .help-center-panel i{line-height:inherit}
+.careers-bottom-box{padding:1.2rem}
+.career-detail-top{margin-bottom:2.5rem}
+.career-content-repeater h5{margin-bottom:1.25rem}
+.career-content-list{margin-bottom:1.75rem}
+.career-detail-bottom{margin:1rem 0}
+.apply-form-btn{padding-left:0;margin-top:.5rem}
+.cd-bottom-inner>div.apply-form-text{display:block}
+.careers-box-left{padding:0;width:100%}
+.careers-left-inner{max-width:100%}
+.careers-categories li {display: block}
+.careers-categories {max-height: 20rem;-webkit-overflow-scrolling: touch;overflow: auto}
+.careers-categories{text-align:center;border:1px solid #dbe3eb;margin-bottom:1.5rem;padding:1.25rem .5rem .5rem;border-radius:.25rem}
+.careers-categories li{margin-bottom:.25rem}
+.careers-box-right{width:100%}
+.careers-left-top .custom-select-main{padding-right:3rem}
+.careers-left-top {margin-bottom: .5rem}
+.toggleOpen{display: none}
+.career-links-main label {min-width: 5.5rem}
+.career-select-group label {display: block}
+.back-to-page a {line-height: 1}
+.legal-documents-tabs .nav-link {min-height: 5rem;padding: 1rem 1rem 1rem 4.75rem}
+.ld-tabs-body{padding:0}
+.dc-pricing-box>div.dc-pricingb-col1,.dc-pricing-box>div.dc-pricingb-col2{width:100%}
+.dc-pricingb-col1 .dc-pricing-inner:after,.dc-pricingb-col2 .dc-pricing-inner:after{display:none}
+.dc-pricingb-col2{border-top:1px solid #dee6ee}
+.dc-pricing-box>div.dc-pricingb-col2 .dc-pricing-inner{padding:.5rem 0 1rem}
+.general-and-billing-faq .faq-main{margin-bottom:2rem}
+.faq-container{margin:3rem 0}
+.banner-prev-arrow,.banner-next-arrow{width:3rem;height:3rem;padding-top:.75rem}
+.banner-with-next-prev h1 {padding: 0 3.5rem}
+.related-article-right {margin-top: 3rem}
+.articles-tabs .nav-pills .nav-link{min-width:inherit}
+.articles-middle-right{margin-top:1.5rem}
+.left-aligned-banner-content{text-align:center}
+.articles-tabs ul{display:table;width:100%}
+.articles-tabs ul li{display:table-cell}
+.articles-tabs .nav-item+.nav-item{margin:0}
+.articles-middle-left{text-align:center}
+.support-box-listing li{border-right:0}
+.support-box-listing li:last-child{border-bottom:0}
+.support-box-listing li a{padding:2rem}
+.support-faq-container>div{display:inline-block;width:100%}
+.help-center-style3 .help-center-panel{margin:0 auto 2rem;padding:0}
+.navbar-menu-form{display:none}
+.dp-banner-box{width:18.25rem;height:18.25rem}
+.dp-banner-img{height:18.25rem}
+.banner-heading-text br{display:none}
+.signup-path1of1-row>div{display:inline-block;width:100%;border-bottom:solid 1px #dee6ee}
+.spath1of1-box-bottom{max-width:15rem;margin-left:auto;margin-right:auto}
+.spath1of1-box-top h4 br{display:none}
+.wcu-style2.wcu-style3 .wcu-img-content {margin: .875rem auto 0}
+.signup-btn-label{margin:1rem 0 0;display:block}
+.signup-path1-box-form .form-group{margin-bottom:1.5rem}
+.signup-path1-box-form .label-text, .signup-path2-right .signup-path1-box-form .label-text{margin-bottom:.5rem}
+.form-secure-label{margin-bottom:1.8rem}
+.signup-path2-left{display:inline-block!important;width:100%}
+.sp2-custom-radio{padding:2rem 2rem 2rem 5.25rem;text-align:left}
+.sp2-custom-radio .sp2-radio-checkmark{top:50%;left:2rem;transform:translate(0,-50%);-webkit-transform:translate(0,-50%);-moz-transform:translate(0,-50%)}
+.signup-path2-col2{padding:2rem}
+.spath3of1-banner-box{max-width:15rem}
+.promotion-banner-style2 .promotion-banner-data h3{max-width:100%}
+.promotion-banner-style2 .promotion-banner-data p{margin:0 auto}
+.header-search-form, .right-menu-links .btn {display: none}
+.signup-order-list li{width:50%}
+.signup-order-list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.form-secure-logos{text-align:left;margin-top:.5rem}
+.signup-path1-box-form .form-group.pay-cards-fields{margin-top:2rem;padding-bottom:2.5rem}
+.pay-cards-logos{top:inherit;bottom:0;width:100%}
+.form-secure-logos .cw-img-logos a+a {margin-left: 1rem}
+.pp-box-inner{max-width:90%}
+.signup-path4of1-content.plan-page-content .banner-md-main .banner-sm-with-content-inner{max-width:100%}
+.form-pay-cards-logos{position:static;display:inline-block;width:100%;text-align:left;padding:.5rem 1rem 0}
+.signup-path4of2-content .safe-and-secure-row>div{display:inline-block;width:100%;text-align:left}
+.signup-path4of2-content .safe-and-secure-row .ss-right-col2{margin-top:.8rem}
+.footer-style-2 .support-timelist{margin:.125rem 1rem 0}
+
+.opreview-header-container .navbar-menu-form{text-align:center;display:block;margin-top:.25rem;padding-top:.5rem;border-top:1px solid #3175a9}
+.op-title{text-align:center}
+.myaccount-bt-left h4{font-size: 1.1rem;}
+.currentPlanBox>h6,.currentPlanBox>div{display:block;}
+.currentPlanBox>div{text-align:left;}
+.currentPlanBox>h6{margin-bottom:0;padding-bottom:0;}
+.normal-dataset-fields .form-show{width: 50%;}
+.myaccount-tabs-detailPage .myaccount-bt-right{text-align:left;margin:.5rem 0 0}
+.extra-right-btns .btn-orange {margin-left: 0}
+}
+
+@media screen and (max-width: 575px) {
+html{font-size:15px}
+h1{line-height: 1.2;font-size: 2rem}
+h2{margin-bottom: 1.5rem;font-size: 1.6rem}
+.container{padding-left:1rem;padding-right:1rem}
+.fixedHeaderPadding {padding-top: 3.5rem}
+.nav-icon{width:1.375rem}
+.top-header .navbar-collapse {max-height: calc(100vh - 3.2rem)}
+.top-header .navbar-toggler[aria-expanded="true"] .nav-icon:before {transform: translateY(0.267rem) rotate(135deg)}
+.nav-icon:after,.nav-icon:before,.nav-icon div{height:.25rem;margin:.25rem auto}
+.top-header .navbar-toggler{padding:.65rem}
+.top-header .navbar-brand{width:15.2rem;}
+.navbar-brand-svg{vertical-align:middle}
+.hero-section .row>div[class*="col-"]:first-child{padding-top:2rem}
+[class*='btn-o']+[class*='btn-o'],.account-payment-cancel-btn, .cancel-plan-btn{margin:1rem 0 0}
+.myaccount-bt-right .btn-orange + .btn-orange {margin-top: 0;}
+.btn-outline,.btn-orange, .account-payment-cancel-btn{min-width:100%}
+.hero-right-from{max-width:98%;padding:1.5rem 1rem 1.8rem}
+.hero-section .row>div[class*="col-"]:last-child{padding-top:1rem}
+.lp-customers-rating span{font-size:.9rem}
+.legal-approvals {margin-bottom: 1.5rem}
+.cd-tabs-main .nav-pills .nav-link{padding:1rem .5rem}
+.cd-tabs-main .nav-pills .nav-link.active .cd-icons,.cd-tabs-main .nav-pills .show>.nav-link .cd-icons{margin-right:0}
+.cd-tabs-main .tab-content{padding:0 .25rem}
+.center-text-with-btn .btn-orange{margin:.5rem 0 0}
+.choose-document-body > .row > div[class*="col-"] .row > div[class*="col-"], .choose-document-body > .row > div[class*="col-"] {margin-bottom: 2.5rem}
+.center-text-with-btn .btn-orange span{display:block}
+.content-with-img{padding:3rem 0}
+.cw-img-box h3{font-size:1.6rem}
+.cw-img2{margin-bottom:2rem}
+.promotion-banner-data h3 span{display:block}
+.promotion-logos img{max-height:2.5rem}
+.promotion-logos{padding-top:2rem}
+.promotion-banner{padding:3rem 0 2.5rem}
+.why-choose-us{padding:3rem 0}
+.h2-description-label{line-height:1.6;padding-bottom:2rem}
+.wcu-img-content {margin: 1rem auto 0;text-align: center}
+.wcu-row>div{display:inline-block;text-align:center;width:100%;padding-right:0}
+.wcu-left{padding-bottom:1rem}
+.wcu-testimony-content, .tb-details{position: relative;width: 100%;border-radius: 0;margin-top: 0;left: 0;top: -2px;}
+.wcu-testimony-img, .tb-img{max-width:100%;padding-top: 74%;border-radius:0}
+.wcu-right-col, .testimonials-banner .row > div[class*="col-"], .testimonials-banner .container{padding:0}
+.wcu-testimonial-main .owl-dots, .testimonials-banner .owl-dots{bottom:0}
+.wcu-testimonial-main, .testimonials-banner .testimonials-slides{padding-bottom:2rem;margin-bottom:1rem}
+.testimonials-banner{margin-bottom: 0}
+.testimonials-banner-sm{margin-top: 30px}
+.bp-second-data h3{margin:3rem 0 .875rem}
+.bp-second-data h3 span{display:block}
+.promotion-banner-second .col-lg-5 {padding: 0}
+.footer-top{padding-bottom:3rem}
+.footer-list li:first-child,.logo360desc{font-size:.8rem}
+.footer-list{padding:0 0 3rem}
+.footer-top-inner .footer-top-col, .footer-col5-inner{width:100%;text-align:center}
+.footer-top-inner .footer-top-col:nth-child(3n+3){width:100%}
+.footer-top-col4,.footer-top-col5{margin-top:0}
+.support-timelist,.footer-list{font-size:.933rem}
+.live-chat-main{margin-top:1.25rem}
+.combine-cards {margin-bottom: 1.4rem; display: block;}
+.social-links{margin:2rem 0 0}
+.footer-bottom-right{margin-top:2rem}
+.logo360icon{width: 4rem;margin-bottom:1.8rem}
+.logo360desc{text-align:center}
+.footer-bottom {padding-top: 2.6rem}
+.about-top-section{padding:3rem 0}
+.about-img{margin-top:3rem}
+.about-top-section .h1-desc-blue{margin-top:2rem;font-size:1.4rem}
+.about-content {margin-bottom: 3rem}
+.about-content h5 {margin-bottom: .5rem}
+.login-page-content .form-box-main,.modal360 .modal-body{padding:2rem 1.5rem}
+.form-group{margin-bottom:1.4rem}
+.form-box-btns .btn-orange{min-width:100%;margin-bottom:1rem}
+.form-box-btns a,.form-box-links a{margin:0}
+.form-box-btns{text-align:center;margin-bottom:.5rem}
+.modal360-title{margin-bottom:1.5rem}
+.form-box-links{text-align:center;margin-bottom:.5rem}
+.custom-checkbox label,.form-box-main .custom-checkbox label{line-height:1.6}
+.form-pannel {padding: 1.5rem 0}
+.notes-dark-blue-bg:before{height: 15rem}
+.notes-blue-bg:before{height: 20rem}
+.safe-and-secure-row>div{display:inline-block;width:100%;text-align:center}
+.ss-right-col2{margin-top:.5rem}
+.myaccount-tabs,.last-activity{width:100%}
+.last-activity h6{color:#494f65}
+.last-activity-list li label{color:#7088a3}
+.myaccount-tabs{margin-bottom:0;text-align:center;min-height:16rem}
+.myaccount-page-inner{margin:2rem auto 0}
+.myaccount-right{margin-top:1rem}
+.myaccount-bt-right{text-align:left;margin:.5rem 0 0}
+.myaccount-tabs-main{padding:1rem;box-shadow:0 0 10px 2px rgba(0,0,0,0.10);-webkit-box-shadow:0 0 10px 2px rgba(0,0,0,0.10);-moz-box-shadow:0 0 10px 2px rgba(0,0,0,0.10)}
+.help-center-panel>div{display:inline-block;text-align:center;padding:0;width:100%}
+.help-center-panel{margin-bottom: 3rem;padding:1.5rem}
+.help-panel-left i{line-height:normal}
+.help-panel-left{margin-bottom:1rem}
+.payment-tabbing-tabs .nav-tabs .nav-link{border-radius:.25rem;padding:.5rem .5rem;width:100%;display:inline-block;margin:.25rem 0;border-bottom:1px solid #d1deeb}
+.payment-tabbing-tabs .nav-tabs .nav-item{display:inline-block;width:100%}
+.payment-tabbing-tabs .nav-tabs .nav-item+.nav-item{margin-left:0}
+.payment-tabbing-tabs .nav-tabs{padding-bottom:1rem}
+.payment-tab-form{padding:1rem 0}
+.payment-tab-form .form-group{margin-bottom:1.4rem}
+.payment-tab-form label{margin-bottom:.5rem}
+.myaccount-bt-left .ssl-information{margin:0;display:inline-block;width:100%}
+.myaccount-body-top{margin-bottom:1rem}
+.h1-desc br{display:none}
+.banner-with-content{padding:0;min-height:27.5rem;display:table;width:100%}
+.banner-with-content-inner{display:table-cell;vertical-align:middle}
+.contact-page-content.notes-blue-bg:before{height:31.5rem}
+.contact-col-main{padding:0}
+.contact-box-inner{margin:0;box-shadow:none}
+.contact-box-left{width:100%}
+.contact-box-left{display:inline-block}
+.cb-left-inner{max-width:13.75rem;margin:0 auto;font-size:1.067rem}
+.contact-bottom-box h6{font-size:.733rem}
+.cb-left-inner ul li p{font-size:.8rem}
+.contact-box-left,.contact-box-right{padding:2.25rem 2rem 1.375rem}
+.contact-form-main{margin-top:.5rem}
+.contact-form-main .form-group-btn{margin-top: 1rem;text-align:center}
+.support-two-col .help-center-panel{text-align:center;border:0;margin-bottom:1rem}
+.support-two-col h6{font-size:1.067rem}
+.support-two-col .help-panel-right{padding:0}
+.footer-top:before{content:"";position:absolute;top:0;left:50%;width:12.4rem;height:1px;background-color:#bdccdd;margin-left:-6.2rem}
+.help-center-style2 .help-center-panel{margin:1rem 0 3rem;padding:1.5rem}
+.help-center-style2 .help-center-panel>div{display:inline-block;text-align:center;padding:0;width:100%}
+.help-center-style2 .help-panel-right{margin-top:0}
+.help-center-style2 .help-center-panel i{line-height:normal}
+.openings-repeater-box>div{display:inline-block;text-align:center}
+.openings-repeater-middle{width: 100%;padding:.5rem 0}
+.openings-repeater-box{text-align:center;padding:1rem}
+.openings-repeater-right{width:7rem}
+.openings-repeater-left{width:2.5rem}
+.career-detail-top{text-align: center}
+.career-form .custom-select-main {max-width: 100%}
+.cd-bottom-inner {padding: 1rem .5rem}
+.apply-form-btn {min-width: 8rem}
+.careers-bottom-box{margin: 1.2rem 0;padding: 0}
+.banner-sm-with-content-inner{padding-bottom: 0}
+.banner-sm-main {min-height: 18rem}
+.legal-documents-tabs .nav li{width:100%;border-right:0}
+.legal-documents-tabs .nav li:last-child{border-top:1px solid #dee6ee}
+.legal-documents-tabs .nav-link{padding:.5rem 1rem 1rem 4.75rem; display: flex;align-items: center;}
+.ld-tabs-content .tab-content{padding:2.75rem 3.25rem 3.25rem 0}
+.legal-documents-data,.legal-documents-data:last-child{margin-bottom:3.25rem}
+.legal-documents-filters{width:4rem}
+.banner-sm-main.banner-md-main{height:25rem}
+.banner-prev-arrow,.banner-next-arrow{width:2.5rem;height:2.5rem;padding-top:.5rem}
+.banner-prev-arrow svg,.banner-next-arrow svg{width:.5rem}
+.banner-with-next-prev h1 {padding: 0 3rem}
+.documents-category-bottom .try-to-search-docs {margin: 0 auto 3rem}
+.faq-container{margin-bottom: 1rem}
+.articles-top{background-color:#1f5e8d;border:1px solid #fff;box-shadow:0 2px 5px rgba(0,0,0,0.20);-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.20);-moz-box-shadow:0 2px 5px rgba(0,0,0,0.20);border-radius:.25rem}
+.articles-tabs .nav-item{display:block;width:100%}
+.articles-tabs .nav-pills .nav-link{border-radius:0;border-bottom:1px solid rgba(255,255,255,0.10)}
+.articles-tabs .nav-pills .nav-item:last-child .nav-link{border:0}
+.related-article-section{padding-bottom:3rem}
+.bottom-sm-hr{display:none}
+.support-bottom {margin: 4rem auto}
+.support-faq-col-2{padding:1rem}
+.support-faq{margin-bottom:3rem}
+.faq-main .card-header .card-link{line-height: 1.2}
+.dp-banner-main{padding-top:3rem}
+.dp-banner-form-group>div{max-width:100%;width:100%}
+.dp-banner-form-group{max-width:15rem;margin:0 auto}
+.dp-banner-form-col-right{margin-top:1rem}
+.dp-banner-box{width:10.25rem;height:10.25rem}
+.dp-banner-img{height:10.25rem}
+.dp-banner-view-indicator img{max-width:5rem}
+.dp-banner-view-indicator{right:-5rem;top:-1rem}
+.navbar-menu-list li+li{margin:0 .25rem}
+.navbar-menu-list li{margin:0 .25rem}
+.navbar-menu{padding:1rem 0}
+.how-it-works-style2 .how-it-works-box{width:100%;text-align:center}
+.how-it-works-style2 .how-it-works-box>div{display:inline-block;width:100%}
+.how-it-works-style2 .how-it-works-text{padding:0}
+.how-it-works-style2 .how-it-works-text span{max-width:13.75rem}
+.how-it-works-style2.how-it-works{padding-bottom:2.25rem}
+.doc-basics-left-top h2,.doc-basics-left-bottom h2{padding-top:1rem}
+.information-box{padding:1rem 1.2rem;margin:0 0 1.75rem}
+.doc-basics-left-top h2,.doc-basics-left-bottom h2{font-size:1.6rem}
+.faq-main .card-body{margin:0 0 1rem}
+.doc-basics-right{padding-top:0}
+.wcu-style2 .wcu-row>div.wcu-col-1{padding-right:0}
+.wcu-style2 .wcu-row>div{display:inline-block;text-align:center;width:100%}
+.wcu-style2 .wcu-row>div.wcu-col-2{text-align:center}
+.wcu-style2 .wcu-img-content{margin:1.25rem auto 0}
+.sample-banner-widget>div{display:inline-block;width:100%;text-align:center}
+.sample-banner-widget>div.sb-widget-form{padding:0}
+.wcu-heading h2{font-size:1.6rem}
+.doc-basics-right-middle{margin:1.125rem 0 3.125rem}
+.sample-banner-widget{padding:2rem 0}
+.related-ducuments-list{float:none;width:auto}
+.related-doc-banner .promotion-box-text{font-size:1rem}
+.wcu-style2 .wcu-row {text-align: center}
+.modal-header-select,.modal-header-button{width:100%;padding:0}
+.modal-header-form{padding-right:0}
+.modal-header-button{margin-top:.5rem}
+.doc-preview-img {padding: 0}
+.modal-body-inner{max-height: 18rem;}
+.plan-page-content .banner-md-main .banner-sm-with-content-inner {padding-bottom: 6rem}
+.signup-path1of1-row>div {padding: 1.5rem}
+.signup-path1-box{padding:1.5rem}
+.signup-bottom-btn{display:block;width:100%}
+.signup-bottom-btn .btn-orange{min-width:100%;width:100%}
+.signup-btn-label{text-align:center;margin-top:.8rem}
+.signup-tooltip-main, .signup-order-main{margin-bottom:2rem}
+.sp2-custom-radio{padding:1rem 1rem 1rem 4rem}
+.sp2-custom-radio .sp2-radio-checkmark{left:1.4rem}
+.signup-path2-col2{padding:1.5rem}
+.doc-form-img{padding:0 1.5rem}
+.sp2-theme-2 {border-top: 1px solid #dee6ee;border-bottom: 1px solid #dee6ee}
+.signup-banner.signup-banner-style-2 .banner-left-aligned-container h1 {line-height: 1.2;font-size: 2rem}
+.spath3of1-banner-box{max-width:9rem}
+.banner-view-indicator-left{max-width:5rem;left:-5rem;top:-1rem}
+.spath3of1-plans-top>div{display:inline-block;width:100%}
+.spath3of1-plans-left{padding-right:0}
+.spath3of1-plans-right{position:absolute;bottom:1.5rem;left:0}
+.spath3of1-plans-row{position:relative;padding-bottom:6rem}
+.ifBgWhiteBelow{padding-bottom:0}
+.ifBgWhiteBelow .wcu-testimonial-main{padding-bottom:0;margin-bottom:0}
+.ifBgWhiteBelow .owl-dots .owl-dot span{margin:0 .15rem .15rem}
+.signup-order-list li{width:100%}
+.signup-order-list{max-width:12rem;display: inline-block;float: none;text-align: left;}
+.signup-order-details label.signup-order-title{padding-right:0}
+.form-secure-logos{margin-top: 1rem}
+.signup-order-details{text-align:center;border:1px solid #bdccdd;padding-top:1.5rem;border-radius:.25rem}
+.signup-order-details>label{text-align:center;width:100%}
+.pp-box-inner{max-width:100%}
+.moneyback-strip-style-2 .moneyback-strip-data{margin-top:0}
+.trustpilot-strip{margin-bottom:1rem}
+.features-section-style-2.features-section h2 {margin-bottom: 3.5rem}
+.why-choose-us.ifBgWhiteBelow {top: 2px;position: relative}
+.signup-path4of2-banner-content{padding:3rem 0}
+.signup-path4of2-banner{background-position:58%}
+.signup-path4of2-content .signup-path-main{padding-top:2rem}
+.signup-plans-policies{margin:2rem 0 0}
+.footer-style-2 .footer-support-call,.footer-style-2 .support-timelist,.footer-style-2 .live-chat-main{display:block;margin-left:auto;margin-right:auto}
+.doc-order-list li a{padding:0 1rem 1rem}
+.onboarding-banner{padding-top:0}
+.select-box-field {width: 100%}
+.radio-circle-fill{margin-right: 1rem;}
+.onboarding-content ~ .footer-style-2 .footer-top:before {display: none}
+.ob-box-inner {margin-bottom: 3rem}
+.doc-order-list li a span {width: 5rem}
+.select-box-btn{width:20%;text-align:right}
+.select-button-group .btn-light-blue.btn-orange{font-size:0;min-width:2.8rem}
+/* .select-box-btn .btn-orange .plus-icon, .normal-dataset-fields .select-box-btn > .btn-orange.btn-light-blue .minus-icon{font-size:2rem;line-height:.75} */
+.onboarding-box>div{padding-top:1.5rem;padding-bottom:1.5rem}
+.obox-left,.obox-right{padding-left:1.5rem;padding-right:1.5rem}
+.progress-bar-main{padding:1.5rem 1.5rem .5rem}
+.obox-form-buttons .btn-orange,.obox-form-buttons .btn-orange.btn-extra-light-blue,.obox-form-buttons .btn-orange.btn-light-link{min-width:100%;margin-top:.5rem}
+.opreview-header-container .refresh-btn{padding:.5rem 1rem}
+.opreview-header-container .navbar-menu-col2{padding:.5rem;width:100%}
+.doc-preview-file{height:20rem}
+.search-page-col1{padding:0}
+.search-field-list{padding:1.5rem 0 0 1.25rem}
+.search-result-header{padding-bottom:.5rem;margin-bottom:1.5rem}
+.blue-bg-header{height: 3rem}
+.error-page-content .search-result-content .btn-orange {min-width: inherit}
+.error-page-content .search-result-header h1 span {font-size: 4rem}
+.back-btn-link{top:-3px;right:5px;}
+.saved-card-box .saved-card-radio:before{top:.1rem;left:.48rem;}
+.saved-card-box{padding:.5rem .5rem .5rem 3rem;}
+.saved-card-box .saved-card-radio{left:.6rem;}
+.saved-card-username,.saved-card-number{width:100%;padding-right:0;}
+.saved-card-type,.saved-card-expiry{width:100%;text-align:left;}
+.saved-card-repeater{padding-right:0;}
+.saved-card-edit a{top:1rem;right:-.3rem;background:transparent;}
+.currentPlanBoxBtn .btn-orange{min-width:inherit;padding:.5rem 1.5rem;}
+.currentPlanBox>div{padding-top:0;}
+.currentPlanBoxBtn .btn-orange + .btn-orange{margin-left:.5rem;margin-top:.5rem;}
+.faq-style-2 .faq-main .card-header .card-link,.faq-style-2 .faq-main .card-body{font-size:1rem;}
+.faq-style-2 .faq-main .card-header .card-link>i{top:.25rem;}
+.normal-dataset-fields .select-box-btn > .btn-orange.btn-light-blue, .normal-dataset-fields .select-box-btn .btn-orange .plus-icon, .normal-dataset-fields .select-box-btn .btn-orange .minus-icon{font-size:.85rem;}
+.other-dataset-fields .form-show ~ .form-show{margin-top:.8rem;}
+.information-box-document .information-box{margin-bottom: 0;}
+.normal-dataset-fields .form-show, .form-show-col2 .normal-dataset-fields .form-show{width: 100%;}
+.normal-dataset-fields .form-show{padding:0 0 .5rem;}
+.bootbox .modal-footer .btn-orange {min-width: 50%; margin-top: 0;}
+.form-box-btns-later .creator-sign-submit-btn-later{margin-bottom: 0.5rem;}
+.btn-extra-light-blue.inline-btn.cancel-later-sm{min-width:100%;margin-top: 0;margin-bottom: 0;}
+.modal-header-form.modal-header-later-form {float: none;display: flex;flex-wrap: wrap;width: 100%;}
+.modal-header-form.modal-header-later-form > div.modal-header-button {float: none;order: 2;width: 100%;}
+.modal-header-form.modal-header-later-form>div {float: none;order: 1;width: 100%;}
+
+.legal-documents-sm-filters {width: 100%;text-align: left;white-space: nowrap;overflow-x: auto;position: static;padding: 1.25rem 0.95rem;}
+.legal-documents-sm-filters .ld-filter-list li {display: inline-block;}
+.ld-tabs-content .tab-content{padding-right: 0;padding-top: 0;}
+.mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{height: 6px;}
+/* .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar{background-color: #3c77a5;}
+.mCS-dark-thin.mCSB_scrollTools .mCSB_draggerRail{background-color: #b9d3e7;} */
+
+}
+
+/*Heder Fixed Removed on Landscape mode*/
+@media screen and (max-height: 480px) {
+.fixed-top {position: absolute}
+}

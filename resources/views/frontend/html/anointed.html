@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISIT Anointed List</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <span class="screen-darken"></span>
+
+<header class="section-header d-lg-none">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light shadow-sm my-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="d-none d-lg-block " src="images/logo.png" alt=""> <img class="d-block d-lg-none" src="images/logo-mobile.png" alt=""></a>
+         <div id="main_nav" class="collapse navbar-collapse">
+            <ul class="searchbar ms-auto mb-0">
+                <input class="search-bar" type="text" placeholder="Search">
+            </ul>
+            <ul class="nav nav-pills ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="images/create-posts-icon.svg" alt=""></a>
+                    <ul class="dropdown-menu dropdown-menu-end fade-up">
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#CreatePostGeneral"> General Post</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#CreateAnointedPost"> Anointed Post </a></li>
+                      </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#"><img class="inactive" src="images/messages-icon.svg" alt=""><img class="active" src="images/messages-icon-active.svg" alt=""></a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="#"><img class="inactive" src="images/notifications-icon.svg" alt=""><img class="active" src="images/notifications-icon-active.svg" alt=""></a></li> -->
+                <!-- <li class="nav-item mobile-only"><a class="nav-link" href="#"><img src="images/search.svg" alt=""></a></li> -->
+                <li class="nav-item">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search" />
+                            <button class="search-icon" onclick="searchToggle(this, event);"><img src="images/search.svg" alt=""></button>
+                        </div>
+                        <span class="close" onclick="searchToggle(this, event);"></span>
+                    </div>
+                </li>
+                <li class="nav-item mobile-only"><a class="nav-link" href="#" data-trigger="navbar_main" type="button"><img src="images/more-icon.svg" alt=""></a></li>
+                <!-- <li class="nav-item">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search" />
+                            <button class="search-icon" onclick="searchToggle(this, event);"><img src="images/search.svg" alt=""></button>
+                        </div>
+                        <span class="close" onclick="searchToggle(this, event);"></span>
+                    </div>
+                </li> -->
+            </ul>
+         </div> 
+        </div> <!-- container-fluid.// -->
+       </nav>
+</header> <!-- section-header.// -->
+
+<!-- ============= COMPONENT ============== -->
+<nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg fixed-top navbar-light shadow-sm my-navbar">
+ <div id="main_nav" class="container-fluid">
+    <div class="offcanvas-header">  
+		<button class="btn-close float-end"></button>
+	</div>
+    <!-- <a class="navbar-brand" href="#"><img class="d-lg-block " src="images/logo.png" alt=""> <img class="d-block d-lg-none" src="images/logo-mobile.png" alt=""></a> -->
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+
+	<ul class="nav searchbar ms-auto mb-0">
+        <li>
+            <input class="search-bar" type="text" placeholder="Search">
+        </li>
+    </ul>
+	<ul class="nav nav-pills ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html"><div class="icon"><img class="inactive" src="images/home-icon.svg" alt=""><img class="active" src="images/home-icon-active.svg" alt=""></div> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="explore.html"><div class="icon"><img class="inactive" src="images/explore-icon.svg" alt=""><img class="active" src="images/explore-icon-active.svg" alt=""></div> Explore</a></li>
+        <li class="nav-item active"><a class="nav-link" href="anointed.html"><div class="icon"><img class="inactive" src="images/anointed-icon.svg" alt=""><img class="active" src="images/anointed-icon-active.svg" alt=""></div> Anointed</a></li>
+        <li class="nav-item dropdown desktop-only">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><div class="icon"><img src="images/create-posts-icon.svg" alt=""></div> Create New Post</a>
+            <ul class="dropdown-menu dropdown-menu-end fade-up">
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#CreatePostGeneral"> General Post</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#CreateAnointedPost"> Anointed Post </a></li>
+              </ul>
+        </li>
+        <li class="nav-item desktop-only"><a class="nav-link" href="#"><div class="icon"><img class="inactive" src="images/messages-icon.svg" alt=""><img class="active" src="images/messages-icon-active.svg" alt=""></div> Messages</a></li>
+        <li class="nav-item"><a class="nav-link" href="all-notifications.html"><div class="icon"><img class="inactive" src="images/notifications-icon.svg" alt=""><img class="active" src="images/notifications-icon-active.svg" alt=""></div> Notifications</a></li>
+        <li class="nav-item dropdown profile-menu">
+            <a class="nav-link dropdown-toggle" href="profile.html" data-bs-toggle="dropdown"><div class="icon"><img src="images/profile-icon.svg" alt=""></div> Profile</a>
+            <ul class="dropdown-menu dropdown-menu-end fade-up">
+              <li>
+                    <a class="dropdown-item" href="#">
+                        <div class="menu-and-icon"><span class="menu-icon"><img src="images/eye-icon.svg" alt=""></span> Publick Visibility</div>
+                        <div class="visiblity-toggle">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <div class="menu-and-icon"><span class="menu-icon"><img src="images/blocked-users-icon.svg" alt=""></span> Blocked Users</div>                           
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <div class="menu-and-icon"><span class="menu-icon"><img src="images/terms-of-use-icon.svg" alt=""></span> Terms of Use</div>                           
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <div class="menu-and-icon"><span class="menu-icon"><img src="images/help-icon.svg" alt=""></span> Help</div>                           
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <div class="menu-and-icon"><span class="menu-icon"><img src="images/log-out-icon.svg" alt=""></span> Logout</div>                           
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+ </div> <!-- container-fluid.// -->
+</nav>
+<!-- ============= COMPONENT END// ============== -->
+
+
+
+<!-- ============= COMPONENT ============== -->
+<!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light shadow-sm my-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="d-none d-lg-block " src="images/logo.png" alt=""> <img class="d-block d-lg-none" src="images/logo-mobile.png" alt=""></a>
+     <div id="main_nav" class="collapse navbar-collapse">
+        <ul class="searchbar ms-auto mb-0">
+            <input class="search-bar" type="text" placeholder="Search">
+        </ul>
+        <ul class="nav nav-pills ms-auto">
+            <li class="nav-item desktop-only active"><a class="nav-link" href="#"><img class="inactive" src="images/home-icon.svg" alt=""><img class="active" src="images/home-icon-active.svg" alt=""></a></li>
+            <li class="nav-item desktop-only"><a class="nav-link" href="#"><img class="inactive" src="images/explore-icon.svg" alt=""><img class="active" src="images/explore-icon-active.svg" alt=""></a></li>
+            <li class="nav-item desktop-only"><a class="nav-link" href="#"><img class="inactive" src="images/anointed-icon.svg" alt=""><img class="active" src="images/anointed-icon-active.svg" alt=""></a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="images/create-posts-icon.svg" alt=""></a>
+                <ul class="dropdown-menu dropdown-menu-end fade-up">
+                    <li><a class="dropdown-item" href="#"> General Post</a></li>
+                    <li><a class="dropdown-item" href="#"> Anointed Post </a></li>
+                  </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#"><img class="inactive" src="images/messages-icon.svg" alt=""><img class="active" src="images/messages-icon-active.svg" alt=""></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><img class="inactive" src="images/notifications-icon.svg" alt=""><img class="active" src="images/notifications-icon-active.svg" alt=""></a></li>
+            <li class="nav-item dropdown profile-menu desktop-only">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="images/profile-icon.svg" alt=""></a>
+                <ul class="dropdown-menu dropdown-menu-end fade-up">
+                  <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/eye-icon.svg" alt=""></span> Publick Visibility</div>
+                            <div class="visiblity-toggle">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/blocked-users-icon.svg" alt=""></span> Blocked Users</div>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/terms-of-use-icon.svg" alt=""></span> Terms of Use</div>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/help-icon.svg" alt=""></span> Help</div>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/log-out-icon.svg" alt=""></span> Logout</div>                           
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item mobile-only"><a class="nav-link" href="#"><img src="images/search.svg" alt=""></a></li>
+            <li class="nav-item mobile-only dropdown more">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="images/more-icon.svg" alt=""></a>
+                <ul class="dropdown-menu dropdown-menu-end fade-up">
+                  <li>
+                    <a class="dropdown-item" href="#"><img src="images/explore-icon-active.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/blocked-users-icon.svg" alt=""></span> Blocked Users</div>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/terms-of-use-icon.svg" alt=""></span> Terms of Use</div>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/help-icon.svg" alt=""></span> Help</div>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="menu-and-icon"><span class="menu-icon"><img src="images/log-out-icon.svg" alt=""></span> Logout</div>                           
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+     </div> 
+    </div> -- container-fluid.// --
+   </nav> -->
+   <!-- ============= COMPONENT //end ============== -->
+
+   <section class="main-wrapper">
+        <div class="container">                
+            <div class="gallery-images">
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                    <span class="video-icon"><img src="images/play-icon.svg" alt=""></span>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>                
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                    <span class="video-icon"><img src="images/play-icon.svg" alt=""></span>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                    <span class="video-icon"><img src="images/play-icon.svg" alt=""></span>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1504595403659-9088ce801e29?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                    <div class="video-icon"><img src="images/play-icon.svg" alt=""></div>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>                
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                    <span class="video-icon"><img src="images/play-icon.svg" alt=""></span>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+                <a href="anointed-details.html" class="single-image">
+                    <img src='https://images.unsplash.com/photo-1504595403659-9088ce801e29?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+                </a>
+            </div>
+        </div>
+    </section>
+   <footer class="footer-section">
+        <div class="container">
+            <div class="copyright">© 2022 ISIT. All rights reserved.</div>
+        </div>
+   </footer>
+
+
+
+   <!-- Create General Post Modal -->
+
+    <div class="modal fade" id="CreatePostGeneral" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="CreatePostGeneralLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="CreatePostGeneralLabel">Create General Post</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="create-post-form">
+                    <form action="">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Heading">
+                            <label for="floatingInput">Heading</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a discription here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Discription</label>
+                        </div>
+                        <div class="image-video-upload-part">
+                            <h4>Photo/Video</h4>
+                            <div class="image-video-upload-preview">
+                                <ul>
+                                    <li>
+                                        <div class="image-video-preview">
+                                            <img src="images/upload-img1.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="image-video-preview">
+                                            <img src="images/upload-img2.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="add-image-video">
+                                            <input type="file">
+                                            <img src="images/plus-icon.svg" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>            
+                <div class="row">
+                    <div class="col-6"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Save as Draft</button></div>
+                    <div class="col-6"><button type="button" class="btn btn-primary">Post</button></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    
+   <!-- Create Anointed Post Modal -->
+
+   <div class="modal fade" id="CreateAnointedPost" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="CreateAnointedPostlLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="CreateAnointedPostlLabel">Create Anointed Post</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="create-post-form">
+                <form action="">
+                    <div class="form-floating select-arrow mb-3">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <option disabled selected>Please select one</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <label for="floatingSelect">Category</label>
+                    </div>
+                    <div class="form-floating select-arrow mb-3">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <option disabled selected>Please select one</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <label for="floatingSelect">Country</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="City">
+                        <label for="floatingInput">City</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Zipcode">
+                        <label for="floatingInput">Zipcode</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a discription here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Discription</label>
+                    </div>
+                    <div class="image-video-upload-part">
+                        <h4>Photo/Video</h4>
+                        <div class="image-video-upload-preview">
+                            <ul>
+                                <li>
+                                    <div class="image-video-preview">
+                                        <img src="images/upload-img1.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-video-preview">
+                                        <img src="images/upload-img2.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="add-image-video">
+                                        <input type="file">
+                                        <img src="images/plus-icon.svg" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>            
+            <div class="row">
+                <div class="col-6"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Save as Draft</button></div>
+                <div class="col-6"><button type="button" class="btn btn-primary">Post</button></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+    
+
+function darken_screen(yesno){
+  if( yesno == true ){
+    document.querySelector('.screen-darken').classList.add('active');
+  }
+  else if(yesno == false){
+    document.querySelector('.screen-darken').classList.remove('active');
+  }
+}
+
+function close_offcanvas(){
+  darken_screen(false);
+  document.querySelector('.mobile-offcanvas.show').classList.remove('show');
+  document.body.classList.remove('offcanvas-active');
+}
+
+function show_offcanvas(offcanvas_id){
+  darken_screen(true);
+  document.getElementById(offcanvas_id).classList.add('show');
+  document.body.classList.add('offcanvas-active');
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  document.querySelectorAll('[data-trigger]').forEach(function(everyelement){
+    
+    let offcanvas_id = everyelement.getAttribute('data-trigger');
+    
+    everyelement.addEventListener('click', function (e) {
+      e.preventDefault();
+          show_offcanvas(offcanvas_id);
+        
+    });
+  });
+
+  document.querySelectorAll('.btn-close').forEach(function(everybutton){
+    
+    everybutton.addEventListener('click', function (e) {
+      e.preventDefault();
+          close_offcanvas();
+      });
+  });
+
+  document.querySelector('.screen-darken').addEventListener('click', function(event){
+    close_offcanvas();
+  });
+  
+  }); 
+// DOMContentLoaded  end
+</script>
+
+<!-- <script>
+function searchToggle(obj, evt){
+    var container = $(obj).closest('.search-wrapper');
+        if(!container.hasClass('active')){
+            container.addClass('active');
+            evt.preventDefault();
+        }
+        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+            container.removeClass('active');
+            // clear input
+            container.find('.search-input').val('');
+        }
+}
+</script> -->
+</body>
+</html>

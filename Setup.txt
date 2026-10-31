@@ -1,0 +1,10 @@
+
+Step 1 
+
+Git fetch all 
+take pull from wed_dev
+
+
+Composer install --ignore-platform-reqs
+
+composer install --ignore-platform-reqs
